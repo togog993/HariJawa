@@ -68,4 +68,3 @@ jmlhari = th2*365 + hb +tgl+jml_Kabisat
   end
 return hasil
 end
-print (Update())

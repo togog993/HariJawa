@@ -4,7 +4,6 @@ function Update()
  th2      = (Thn.year)
  Bl2      = (Thn.month)
  tgl      = (Thn.day)
-
  ht       = os.date("%j")
  hb       = ht-Bl2
         if (hb >= 0) and (hb <= 31) then
@@ -64,7 +63,7 @@ jmlhari = th2*365 + hb +tgl+jml_Kabisat
         if (Bl2 ~=1 and Bl2 ~=3 and Bl2 ~=5 and Bl2 ~=7 and Bl2 ~=8 and Bl2 ~=10 and Bl2 ~=12) then
         hasil = false end
     end
-    return pasaran_jawa
+    return hasil
   end
 return hasil
 end
